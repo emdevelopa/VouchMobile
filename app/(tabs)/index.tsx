@@ -5,6 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -26,7 +27,7 @@ export default function HomeScreen() {
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
-              ios: 'cmd + d',
+              ios: 'cmd + d', 
               android: 'cmd + m',
               web: 'F12'
             })}
